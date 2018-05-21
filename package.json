@@ -1,6 +1,6 @@
 {
   "name": "simple-vue-autocomplete",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple Vue autocomplete component using axios to get data from Laravel based API",
   "main": "dist/simple-vue-autocomplete.js",
   "scripts": {
