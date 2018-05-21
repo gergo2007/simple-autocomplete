@@ -1,15 +1,17 @@
 {
-  "name": "simple-autocomplete",
+  "name": "simple-vue-autocomplete",
   "version": "1.0.0",
   "description": "A simple Vue autocomplete component using axios to get data from Laravel based API",
-  "main": "dist/simple-autocomplete.js",
+  "main": "dist/simple-vue-autocomplete.js",
   "scripts": {
     "build": "rimraf ./dist && webpack --config ./webpack.config.js"
   },
   "author": "Katyi Gergo",
   "license": "MIT",
   "dependencies": {
-    "vue-clickaway ": "^2.2.2"
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.21.0",
+    "vue-clickaway": "^2.2.2"
   },
   "repository": {
     "type": "git",

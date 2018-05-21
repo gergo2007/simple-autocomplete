@@ -44,17 +44,17 @@ module.exports = [
   merge(config, {
     entry: path.resolve(__dirname + '/src/plugin.js'),
     output: {
-      filename: 'simple-autocomplete.min.js',
+      filename: 'simple-vue-autocomplete.min.js',
       libraryTarget: 'window',
-      library: 'SimpleAutocomplete',
+      library: 'SimpleVueAutocomplete',
     }
   }),
   merge(config, {
-    entry: path.resolve(__dirname + '/src/SimpleAutocomplete.vue'),
+    entry: path.resolve(__dirname + '/src/SimpleVueAutocomplete.vue'),
     output: {
-      filename: 'simple-autocomplete.js',
+      filename: 'simple-vue-autocomplete.js',
       libraryTarget: 'umd',
-      library: 'simple-autocomplete',
+      library: 'simple-vue-autocomplete',
       umdNamedDefine: true
     }
   })

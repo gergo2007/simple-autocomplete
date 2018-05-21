@@ -24,7 +24,7 @@
     import { mixin as clickaway } from 'vue-clickaway';
 
     export default{
-        name: "simple-autocomplete",
+        name: "simple-vue-autocomplete",
         mixins: [ clickaway ],
         props:{
             placeholder: String,

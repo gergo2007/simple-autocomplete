@@ -1,7 +1,7 @@
-import SimpleAutocomplete from './SimpleAutocomplet.vue';
+import SimpleVueAutocomplete from './SimpleVueAutocomplete.vue';
 
 module.exports = {
   install: function (Vue, options) {
-    Vue.component('simple-autocomplete', SimpleAutocomplete);
+    Vue.component('simple-vue-autocomplete', SimpleVueAutocomplete);
   }
 };

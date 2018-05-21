@@ -1,29 +1,29 @@
-# simple-autocomplete
+# simple-vue-autocomplete
 
 A simple Vue autocomplete component using axios to get data from Laravel based API. 
 
 ## Installation
 
 ```js
-npm i --save-dev simple-autocomplete
+npm i --save-dev simple-vue-autocomplete
 ```
 
 ### Browser
 
-Include the script file, then install the component with `Vue.use(SimpleAutocomplete);` e.g.:
+Include the script file, then install the component with `Vue.use(SimpleVueAutocomplete);` e.g.:
 
 ```html
 <script type="text/javascript" src="node_modules/vuejs/dist/vue.min.js"></script>
-<script type="text/javascript" src="node_modules/simple-autocomplete/dist/simple-autocomplete.min.js"></script>
+<script type="text/javascript" src="node_modules/simple-vue-autocomplete/dist/simple-vue-autocomplete.min.js"></script>
 <script type="text/javascript">
-  Vue.use(SimpleAutocomplete);
+  Vue.use(SimpleVueAutocomplete);
 </script>
 ```
 
 ### Module
 
 ```js
-import SimpleAutocomplete from 'simple-autocomplete';
+import SimpleVueAutocomplete from 'simple-vue-autocomplete';
 ```
 
 ## Usage
@@ -31,13 +31,13 @@ import SimpleAutocomplete from 'simple-autocomplete';
 Once installed, it can be used in a template as simply as:
 
 ```html
-<simple-autocomplete></simple-autocomplete>
+<simple-vue-autocomplete></simple-vue-autocomplete>
 ```
 
 Example:
 
 ```html
- <simple-autocomplete id="location" route={{route('api.locations.list')}} search_for="name" placeholder="Location" min-length="3" @selected-result="setLocationID"></simple-autocomplete>
+ <simple-vue-autocomplete id="location" route={{route('api.locations.list')}} search_for="name" placeholder="Location" min-length="3" @selected-result="setLocationID"></simple-vue-autocomplete>
 ```
 
 ID: The autocomplete input's id
