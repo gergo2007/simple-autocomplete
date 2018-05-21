@@ -41,15 +41,23 @@ Example:
 ```
 
 ID: The autocomplete input's id
+
 Route: API route to send the query to
+
 Search For: The key to search for
+
 Placeholder: Input's placeholder
+
 Min Length: Input's minimum lenght to query
 
 The component emits a selected-result event, containing the selected result (the full object).
 
-Query example{
-	"query": {
-	    "name": "London"
-	}
+Query example
+
+
+```html
+
+"query": {	
+    "name": "London"
 }
+
